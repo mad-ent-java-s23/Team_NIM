@@ -9,4 +9,7 @@
 
 ## Objective
 
-## 
+## APIs
+List APIs and links that are used
+[https://rapidapi.com/Alejandro99aru/api/wordle-answers-solutions](link)
+
