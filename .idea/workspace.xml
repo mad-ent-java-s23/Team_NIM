@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wordle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wordle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wordle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,12 +53,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/Users/keithlienert/Documents/EntJava/Team_NIM/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,10 +73,75 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/entity" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/controller" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.teamNIM.persistence" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.teamNIM.entity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.teamNIM.util" />
       <recent name="com.teamNIM.persistence" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WordleAnswersTest">
+    <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordleAnswersTest.getCurrentSolutionTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
+      <option name="METHOD_NAME" value="getCurrentSolutionTestSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordleAnswersTest.getOlderSolutionTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
+      <option name="METHOD_NAME" value="getOlderSolutionTestSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WordleAnswersTest" />
+        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+        <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,11 +152,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679766932861</updated>
       <workItem from="1679766934113" duration="3300000" />
-      <workItem from="1679781143739" duration="1976000" />
+      <workItem from="1679781143739" duration="6232000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
 </project>
