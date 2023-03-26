@@ -16,10 +16,13 @@
 5. Utilize the NYTimes API (or other) to retrieve randomized words already used (randomize the dates to retrieve them)
 6. Ensure game is accessible to a wide range of users (including those with disabilities or with assistive technologies
 
-## APIs
+## APIs and other links
 List APIs and links that are used:
-- [https://rapidapi.com/Alejandro99aru/api/wordle-answers-solutions](link)
-- [https://www.nytimes.com/svc/wordle/v2/](link)
+- [Rapid API - Wordle](https://rapidapi.com/Alejandro99aru/api/wordle-answers-solutions)
+- [NYTimes API](https://www.nytimes.com/svc/wordle/v2/)
+- [Wordle Vulnerabilities](https://siliconangle.com/2022/12/19/api-vulnerabilities-wordle-exposed-answers-opened-door-potential-hacking/)
 
-
-
+## Other Documents
+- [Team Resume](docs/teamResume.md)
+- [Team Charter](docs/teamCharter.md)
+- [Problem Statement](docs/problemStatement.md)
