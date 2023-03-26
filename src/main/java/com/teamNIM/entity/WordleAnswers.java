@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class WordleAnswers{
 
+	public WordleAnswers() {}
+
 	@JsonProperty("editor")
 	private String editor;
 
