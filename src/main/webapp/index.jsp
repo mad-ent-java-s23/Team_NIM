@@ -1,5 +1,8 @@
 <html>
+<%@include file="head.jsp"%>
 <body>
-<h2>Hello World!</h2>
+<div class="container">
+    <h2>Hello Wordle!</h2>
+</div>
 </body>
 </html>
