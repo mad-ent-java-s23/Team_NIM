@@ -36,7 +36,7 @@
 - Week 10 (ending 4/2)
   - [ ] POJO and DAO created
   - [ ] Initial tests with the NYTimes API and/or rapidAPI
-  - 
+   
 - Week 11 (ending 4/9)
 - Week 12
     - [ ] Project due on 4/12, 7pm CST 
