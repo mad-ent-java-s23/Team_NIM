@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cognito.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cognito.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -146,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team_NIM:war">
@@ -239,7 +238,7 @@
       <item itemvalue="JUnit.WordleAnswersTest" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
       <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.41" />
     </list>
     <recent_temporary>
       <list>
@@ -263,7 +262,7 @@
       <workItem from="1679872755406" duration="4397000" />
       <workItem from="1679929228185" duration="1660000" />
       <workItem from="1679991769082" duration="8583000" />
-      <workItem from="1680025010324" duration="2484000" />
+      <workItem from="1680025010324" duration="2894000" />
     </task>
     <servers />
   </component>
