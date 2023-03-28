@@ -10,6 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cognito.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cognito.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +264,7 @@
       <workItem from="1679839325380" duration="291000" />
       <workItem from="1679872755406" duration="4397000" />
       <workItem from="1679929228185" duration="1660000" />
-      <workItem from="1679991769082" duration="6414000" />
+      <workItem from="1679991769082" duration="8583000" />
     </task>
     <servers />
   </component>
