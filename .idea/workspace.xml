@@ -10,11 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cognito.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/auth/CognitoJWTParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/auth/CognitoTokenHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/auth/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/auth/KeysItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/auth/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/LogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/Auth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/LogIn.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/student/IdeaProjects/Team_NIM/src/main/java/com/teamNIM/controller",
+    "last_opened_file_path": "/home/student/IdeaProjects/Team_NIM/src/main/java/com/teamNIM/auth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/auth" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/controller" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/entity" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -265,7 +268,7 @@
       <workItem from="1679839325380" duration="291000" />
       <workItem from="1679872755406" duration="4397000" />
       <workItem from="1679929228185" duration="1660000" />
-      <workItem from="1679991769082" duration="3898000" />
+      <workItem from="1679991769082" duration="4473000" />
     </task>
     <servers />
   </component>
