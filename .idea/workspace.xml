@@ -89,7 +89,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -138,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team_NIM:war">
@@ -254,7 +254,7 @@
       <workItem from="1679839325380" duration="291000" />
       <workItem from="1679872755406" duration="4397000" />
       <workItem from="1679929228185" duration="1660000" />
-      <workItem from="1679991769082" duration="453000" />
+      <workItem from="1679991769082" duration="1419000" />
     </task>
     <servers />
   </component>
