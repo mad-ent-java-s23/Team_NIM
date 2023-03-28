@@ -1,5 +1,6 @@
-<html>
 <%@include file="head.jsp"%>
+<%@include file="taglib.jsp"%>
+<html>
 <body>
 <div class="container">
     <h2>Hello Wordle!</h2>
