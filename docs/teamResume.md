@@ -26,9 +26,10 @@ List APIs and links that are used:
 3. ...
 
 #### Matt:
-1. ...
-2. ...
-3. ...
+- Bachelor's degrees in Biology and Microbiology.
+- Got a job in a biotech company for a break year before going to med school, became fascinated by the tech, switched from the 'bio' part of the word to the 'tech' part of the word. 
+- Worked as an engineer for the last 6 years. Main areas of focus are microfluidics and laser-optics. I design, build and maintain equipment used in labs all around the world (that's how I ended up in Norway).
+- Now that I have the 'bio' and the 'tech' portions down, I'm here to learn how how to write code for the machines that I design in order to make me a real swiss army knife. 
 
 #### Keith:
 - Worked as a lecturer at the University of Wisconsin-Platteville for twelve years. Responsibilities included teaching undergraduate music courses in theory and performance, developing and implementing new curricula, and collaborating with colleagues in recruitment, recording, and performance.
