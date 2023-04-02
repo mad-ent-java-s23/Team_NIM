@@ -1,5 +1,7 @@
 <%@include file="head.jsp"%>
 <%@include file="taglib.jsp"%>
+<c:set var="title" value="TeamNIM - Wordle Clone" />
+
 <html>
 <body>
 <div class="container">
