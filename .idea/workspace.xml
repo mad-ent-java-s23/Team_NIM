@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +66,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordleAnswersTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
