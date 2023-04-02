@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> 472c3e475ead62e66dd125c99dd67bf39f087062
+>>>>>>> 7832fb3975ca24c2334ade900d4fa780a3990e41
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,11 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.WordleAnswersTest">
+=======
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
+>>>>>>> 472c3e475ead62e66dd125c99dd67bf39f087062
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -243,9 +255,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
-        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
         <item itemvalue="JUnit.WordleAnswersTest" />
+        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+        <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -261,11 +273,20 @@
       <workItem from="1679781143739" duration="6662000" />
       <workItem from="1679839325380" duration="291000" />
       <workItem from="1679872755406" duration="4397000" />
+<<<<<<< HEAD
+      <workItem from="1679929228185" duration="3690000" />
+      <workItem from="1680027829403" duration="2539000" />
+=======
       <workItem from="1679929228185" duration="1660000" />
       <workItem from="1679991769082" duration="8583000" />
+<<<<<<< HEAD
       <workItem from="1680025010324" duration="4648000" />
       <workItem from="1680112176071" duration="642000" />
       <workItem from="1680454432293" duration="1012000" />
+=======
+      <workItem from="1680025010324" duration="2894000" />
+>>>>>>> 472c3e475ead62e66dd125c99dd67bf39f087062
+>>>>>>> 7832fb3975ca24c2334ade900d4fa780a3990e41
     </task>
     <servers />
   </component>
