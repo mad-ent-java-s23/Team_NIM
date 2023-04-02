@@ -11,6 +11,9 @@
             <p>Wordle -- <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">Word</a> of the Day</p>
         </div>
     </div>
+    <div class="row">
+    <%--  TODO: Add a form or calendar to input the day for the Wordle Answer --%>
+    </div>
     <hr>
     <div class="row justify-content-center">
         <c:choose>

@@ -34,8 +34,9 @@
     - [ ] Project Plan started
     - [x] GitHub Repo created
 - Week 10 (ending 4/2)
-  - [ ] POJO and DAO created
-  - [ ] Initial tests with the NYTimes API and/or rapidAPI
+  - [X] POJO and DAO created
+  - [X] Initial tests with the NYTimes API and/or rapidAPI
+  - [X] Initialized a basic 'web service' for the current Wordle of the Day on the index page
    
 - Week 11 (ending 4/9)
 - Week 12
