@@ -8,9 +8,7 @@
     <h2>Hello Wordle!</h2>
     <div class="row justify-content-center">
         <div class="col-4">
-            <p>Wordle Word of the Day<br />
-                <a href="http://localhost:8088/Team_NIM_war/getWords/WordleService/today">Today's Word!</a>
-            </p>
+            <p>Wordle -- <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">Word</a> of the Day</p>
         </div>
     </div>
     <hr>
