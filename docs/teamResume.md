@@ -4,7 +4,13 @@
 
 ### Project Name - Wordle Clone
 
-### Objectives
+### Objectives (EDITED)
+#### RESTful API
+1. Using the NYTimes [API](https://www.nytimes.com/svc/wordle/v2/), develop an end point we users can access the 'word of the day'
+2. Additionally, users will be able to search for words in the API by date.  
+3. From the Administrator's side, we will utilize the GET, POST, and DELETE methods. For the User, only the GET method will be used 
+
+#### Game interface (this is if there is time)
 1. Develop user-friendly interface that allows players to input guesses
 2. Create an algorithm to randomly select a five-letter word and tracks player progression as they attempt to guess the correct word
 3. Implement a scoring system – correct guesses, incorrect guesses (tries), etc.
