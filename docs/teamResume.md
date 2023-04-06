@@ -8,7 +8,17 @@
 #### RESTful API
 1. Using the NYTimes [API](https://www.nytimes.com/svc/wordle/v2/), develop an end point we users can access the 'word of the day'
 2. Additionally, users will be able to search for words in the API by date.  
-3. From the Administrator's side, we will utilize the GET, POST, and DELETE methods. For the User, only the GET method will be used 
+3. From the Administrator's side, we will utilize the GET, POST, and DELETE methods. For the User, only the GET method will be used
+4. Responses for the GET should look as follows:
+   <pre>
+   WordleAnswers {
+      editor='*who wrote it*', 
+      solution='*the word*', 
+      daysSinceLaunch=*some int*, 
+      id=*some int, 
+      printDate='2023-03-01'
+   }
+   </pre>
 
 #### Game interface (this is if there is time)
 1. Develop user-friendly interface that allows players to input guesses
