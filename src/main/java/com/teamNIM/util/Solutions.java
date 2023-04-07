@@ -68,7 +68,10 @@ public class Solutions {
     public static List<String> queryValues (List<String> dates) {
         List<String> solutions = new ArrayList<>();
         for (int i = 0; i < dates.size(); i++) {
-            solutions.add(String.valueOf(dao.getAnswer(dates.get(i))));
+            solutions.add(String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + ", " +
+                    dao.getAnswer(dates.get(i)).getPrintDate() + ", " +
+                    dao.getAnswer(dates.get(i)).getEditor()));
+
         }
         return solutions;
     }
@@ -77,7 +80,7 @@ public class Solutions {
     public static void main(String[] args) {
         dao = new wordleDAO();
 //        LocalDate startDate = LocalDate.parse("2021-06-19"); // starting date for NYTimes
-        LocalDate startDate = LocalDate.parse("2023-03-19"); // just for a test
+        LocalDate startDate = LocalDate.parse("2023-04-01"); // just for a test
         LocalDate currDate = LocalDate.now();
         System.out.println(queryValues(getDates(startDate, currDate)));
 
