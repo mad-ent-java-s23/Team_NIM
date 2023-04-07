@@ -10,7 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/util/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/keithlienert/Documents/EntJava/Team_NIM/src/test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/auth" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/controller" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -76,7 +90,20 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
+  <component name="RunManager" selected="Application.Solutions">
+    <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -294,6 +321,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solutions" />
       <item itemvalue="JUnit.WordleAnswersTest" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
       <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
@@ -301,6 +329,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solutions" />
         <item itemvalue="JUnit.WordleAnswersTest" />
         <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
@@ -324,6 +353,7 @@
       <workItem from="1680025010324" duration="2894000" />
       <workItem from="1680795362182" duration="2147000" />
       <workItem from="1680825602838" duration="2152000" />
+      <workItem from="1680876555413" duration="9264000" />
     </task>
     <servers />
   </component>
