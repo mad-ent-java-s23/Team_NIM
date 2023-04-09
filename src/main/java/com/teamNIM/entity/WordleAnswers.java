@@ -60,4 +60,15 @@ public class WordleAnswers{
 	public String getPrintDate(){
 		return printDate;
 	}
+
+	@Override
+	public String toString() {
+		return "WordleAnswers{" +
+				"editor='" + editor + '\'' +
+				", solution='" + solution + '\'' +
+				", daysSinceLaunch=" + daysSinceLaunch +
+				", id=" + id +
+				", printDate='" + printDate + '\'' +
+				'}';
+	}
 }
