@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
+  <component name="RunManager" selected="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess">
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -213,9 +212,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WordleAnswersTest" />
-        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
+        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+        <item itemvalue="JUnit.WordleAnswersTest" />
       </list>
     </recent_temporary>
   </component>
