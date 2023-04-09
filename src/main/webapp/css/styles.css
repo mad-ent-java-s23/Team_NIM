@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
+
+.login {
+    float: right;
+    padding-top: 3em;
+    padding-right: 3em;
+}
