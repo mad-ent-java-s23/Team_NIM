@@ -12,3 +12,15 @@ img {
     padding-top: 3em;
     padding-right: 3em;
 }
+
+.login a {
+    background-color: green;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: black;
+}
