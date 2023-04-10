@@ -29,23 +29,35 @@
     <%--  TODO: Add a form or calendar to input the day for the Wordle Answer --%>
     </div>
     <hr>
-<%-- attemp #1 at calendar stuff --%>
+<%-- attempt #1487 at calendar stuff --%>
     <div class="row">
         <div class='col-sm-6'>
-            <div class="form-group">
-                <div class='input-group date' id='datetimepicker1'>
-                    <input type='text' class="form-control" />
-                    <span class="input-group-addon">
-           <span class="glyphicon glyphicon-calendar"></span>
-           </span>
+
+                <div class='input-group date datepicker'>
+                    <input id="datePicker" type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
                 </div>
-            </div>
         </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker();
+
+        <script>
+            let input = document.getElementById('datePicker');
+            $('.datepicker').datepicker({
+                format: 'yyyy-mm-dd',
             });
         </script>
+<%--        <script>--%>
+<%--            $(function() {--%>
+<%--                $('.datepicker').datepicker({--%>
+<%--                    dateFormat: "yyyy-mm-dd",--%>
+<%--                    onSelect: function(){--%>
+<%--                        var selected = $(this).val();--%>
+<%--                        alert(selected);--%>
+<%--                    }--%>
+<%--                });--%>
+<%--            });--%>
+<%--        </script>--%>
     </div>
 
 </div>
