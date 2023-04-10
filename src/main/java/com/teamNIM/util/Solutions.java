@@ -70,8 +70,8 @@ public class Solutions {
         List<String> solutions = new ArrayList<>();
         for (int i = 0; i < dates.size(); i++) {
             solutions.add
-                    ("('" + String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + "', " +
-                    dao.getAnswer(dates.get(i)).getPrintDate() + ", " + "'" +
+                    ("('" + String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + "', '" +
+                    dao.getAnswer(dates.get(i)).getPrintDate() + "', " + "'" +
                     dao.getAnswer(dates.get(i)).getEditor())+ "')");
         }
         return solutions;
@@ -83,8 +83,6 @@ public class Solutions {
      * @throws IOException the io exception
      */
     public static void toFile (List<String> list) throws IOException {
-//        String str = "Testing... 1, 2, 3... etc.";
-//        get string
         File file = new File("src/main/resources/InsertValues.txt");
         if (file.exists()) {
             file.delete();
@@ -105,7 +103,7 @@ public class Solutions {
     public static void main(String[] args) throws IOException {
         dao = new wordleDAO();
 //        LocalDate startDate = LocalDate.parse("2021-06-19"); // starting date for NYTimes
-        LocalDate startDate = LocalDate.parse("2023-04-01"); // just for a test
+        LocalDate startDate = LocalDate.parse("2023-04-05"); // just for a test
         LocalDate currDate = LocalDate.now();
 
         toFile(queryValues(getDates(startDate, currDate)));

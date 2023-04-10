@@ -7,9 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -27,6 +25,7 @@ class WordleAnswersTest {
         date = LocalDate.now(); // current date
         dao = new wordleDAO();
 //         use genericDao
+        genericDao = new GenericDao(WordleAnswers.class);
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -36,6 +35,7 @@ class WordleAnswersTest {
 //        assertEquals("???", dao.getAnswer(String.valueOf(date)).getSolution());
         System.out.println("Wordle Answer for (" + date + ") is: " + dao.getAnswer(String.valueOf(date)).getSolution());
     }
+
 
     @Test
     public void getOlderSolutionTestSuccess() {

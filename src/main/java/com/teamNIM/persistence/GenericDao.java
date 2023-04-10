@@ -33,15 +33,12 @@ public class GenericDao<T> {
      */
     public List<T> getAll() {
         Session session = getSession();
-
         CriteriaBuilder builder = session.getCriteriaBuilder();
-
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
         session.close();
         return list;
-
     }
 
     /**
@@ -51,7 +48,6 @@ public class GenericDao<T> {
      * @param id  entity id to search by
      * @return entity by id
      */
-    @SuppressWarnings("unchecked")
     public <T> T getById(int id) {
         Session session = getSession();
         T entity = (T)session.get(type, id);
@@ -66,7 +62,6 @@ public class GenericDao<T> {
      * @param property the property
      * @return the by property
      */
-    @SuppressWarnings("unchecked")
     public <T> T getByProperty(String property) {
         Session session = getSession();
         T entity = (T)session.get(type, property);
@@ -135,7 +130,6 @@ public class GenericDao<T> {
      * @param entity Entity to be inserted or updated
      */
     public void saveOrUpdate(T entity) {
-
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(entity);
@@ -151,13 +145,11 @@ public class GenericDao<T> {
      */
     public int insert(T entity) {
         int id;
-
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         id = (int)session.save(entity);
         transaction.commit();
         session.close();
-
         return id;
     }
 
@@ -168,7 +160,6 @@ public class GenericDao<T> {
      */
     private Session getSession() {
         return SessionFactoryProvider.getSessionFactory().openSession();
-
     }
 
 
