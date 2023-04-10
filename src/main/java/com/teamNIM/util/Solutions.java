@@ -1,6 +1,7 @@
 package com.teamNIM.util;
 
 import com.teamNIM.persistence.wordleDAO;
+import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +64,7 @@ public class Solutions {
     /**
      * Retrieves the NYTimes API information (wordleDAO) with the dates information
      * @param dates -- String List of dates to search words for
-     * @return --
+     * @return -- List<String> with correct INSERT values for a SQL statement
      */
     public static List<String> queryValues (List<String> dates) {
         List<String> solutions = new ArrayList<>();
@@ -72,20 +73,44 @@ public class Solutions {
                     ("('" + String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + "', " +
                     dao.getAnswer(dates.get(i)).getPrintDate() + ", " + "'" +
                     dao.getAnswer(dates.get(i)).getEditor())+ "')");
-
         }
         return solutions;
     }
 
+    /**
+     * Takes a String list and produces a .txt file
+     * @param list the list
+     * @throws IOException the io exception
+     */
+    public static void toFile (List<String> list) throws IOException {
+//        String str = "Testing... 1, 2, 3... etc.";
+//        get string
+        File file = new File("src/main/resources/InsertValues.txt");
+        if (file.exists()) {
+            file.delete();
+            file.createNewFile();
+        } else {
+            file.createNewFile();
+        }
+        BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+        //remove [] from list
+        String res = list.toString();
+        String result = res.substring(1, res.length()-1);
+        bw.write(result);
+        bw.close();
+    }
 
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) throws IOException {
         dao = new wordleDAO();
 //        LocalDate startDate = LocalDate.parse("2021-06-19"); // starting date for NYTimes
         LocalDate startDate = LocalDate.parse("2023-04-01"); // just for a test
         LocalDate currDate = LocalDate.now();
-        System.out.println(queryValues(getDates(startDate, currDate)));
 
-//        System.out.println(dao.getAnswer("2021-06-19"));
+        toFile(queryValues(getDates(startDate, currDate)));
+
+
 
 
 
