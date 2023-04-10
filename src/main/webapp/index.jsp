@@ -9,7 +9,7 @@
     <div class="login">
         <c:choose>
             <c:when test="${empty userName}">
-                <a href = "logIn">Log in</a>
+                <a href = "logIn">Login</a>
             </c:when>
             <c:otherwise>
                 <h3>Welcome ${userName}</h3>
