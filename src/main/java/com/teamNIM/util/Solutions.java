@@ -68,9 +68,10 @@ public class Solutions {
     public static List<String> queryValues (List<String> dates) {
         List<String> solutions = new ArrayList<>();
         for (int i = 0; i < dates.size(); i++) {
-            solutions.add(String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + ", " +
-                    dao.getAnswer(dates.get(i)).getPrintDate() + ", " +
-                    dao.getAnswer(dates.get(i)).getEditor()));
+            solutions.add
+                    ("('" + String.valueOf(dao.getAnswer(dates.get(i)).getSolution() + "', " +
+                    dao.getAnswer(dates.get(i)).getPrintDate() + ", " + "'" +
+                    dao.getAnswer(dates.get(i)).getEditor())+ "')");
 
         }
         return solutions;
