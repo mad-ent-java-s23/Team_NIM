@@ -29,6 +29,25 @@
     <%--  TODO: Add a form or calendar to input the day for the Wordle Answer --%>
     </div>
     <hr>
+<%-- attemp #1 at calendar stuff --%>
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+           <span class="glyphicon glyphicon-calendar"></span>
+           </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+
 </div>
 </body>
 </html>
