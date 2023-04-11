@@ -24,10 +24,6 @@ class WordleAnswersTest {
     void setUp() {
         date = LocalDate.now(); // current date
         dao = new wordleDAO();
-//         use genericDao
-        genericDao = new GenericDao(WordleAnswers.class);
-        Database database = Database.getInstance();
-        database.runSQL("cleandb.sql");
     }
 
     @Test

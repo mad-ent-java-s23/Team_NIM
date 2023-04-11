@@ -103,7 +103,7 @@ public class Solutions {
     public static void main(String[] args) throws IOException {
         dao = new wordleDAO();
 //        LocalDate startDate = LocalDate.parse("2021-06-19"); // starting date for NYTimes
-        LocalDate startDate = LocalDate.parse("2023-04-05"); // just for a test
+        LocalDate startDate = LocalDate.parse("2023-01-01"); // just for a test
         LocalDate currDate = LocalDate.now();
 
         toFile(queryValues(getDates(startDate, currDate)));

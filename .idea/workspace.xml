@@ -10,20 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/wordleDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/teamNIM.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teamNIM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/util/Solutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/util/Solutions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/InsertValues.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/InsertValues.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/cleandb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GenericDaoTest">
+  <component name="RunManager" selected="JUnit.wordleDaoTest">
     <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
       <module name="Team_NIM" />
@@ -145,33 +144,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleAnswersTest.getOlderSolutionTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="wordleDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="getOlderSolutionTestSuccess" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.wordleDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleAnswersTest.getWordleAnswerByIDSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="wordleDaoTest.getFirstEntity_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="getWordleAnswerByIDSuccess" />
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.wordleDaoTest" />
+      <option name="METHOD_NAME" value="getFirstEntity_Success" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,18 +346,18 @@
     <list>
       <item itemvalue="Application.Solutions" />
       <item itemvalue="JUnit.GenericDaoTest" />
-      <item itemvalue="JUnit.WordleAnswersTest.getWordleAnswerByIDSuccess" />
+      <item itemvalue="JUnit.wordleDaoTest" />
+      <item itemvalue="JUnit.wordleDaoTest.getFirstEntity_Success" />
       <item itemvalue="JUnit.WordleAnswersTest" />
-      <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.wordleDaoTest" />
+        <item itemvalue="JUnit.wordleDaoTest.getFirstEntity_Success" />
         <item itemvalue="JUnit.GenericDaoTest" />
         <item itemvalue="JUnit.WordleAnswersTest" />
         <item itemvalue="Application.Solutions" />
-        <item itemvalue="JUnit.WordleAnswersTest.getWordleAnswerByIDSuccess" />
-        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
       </list>
     </recent_temporary>
   </component>

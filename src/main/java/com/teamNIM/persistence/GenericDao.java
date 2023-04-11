@@ -22,7 +22,6 @@ public class GenericDao<T> {
      * @param type the entity type, for example, User.
      */
     public GenericDao(Class<T> type) {
-
         this.type = type;
     }
 
