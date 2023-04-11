@@ -18,48 +18,37 @@
     </div>
 </header>
 <hr>
-<div class="container m-2">
-    <h2 class="text-uppercase text-bold display-1">Hello Wordle!</h2>
-    <div class="row justify-content-center">
-        <div class="col-4">
-            <p>Wordle -- <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">Word</a> of the Day</p>
-        </div>
-    </div>
-    <div class="row">
-    <%--  TODO: Add a form or calendar to input the day for the Wordle Answer --%>
-    </div>
-    <hr>
-<%-- attempt #1487 at calendar stuff --%>
-    <div class="row">
-        <div class='col-sm-6'>
+<div class="container-fluid">
 
-                <div class='input-group date datepicker'>
-                    <input id="datePicker" type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+        <div class="row">
+            <div class="col-6 justify-content-center">
+                <h2 class="text-uppercase text-bold display-1">Get today's wordle answer</h2>
+                <p>Establish intellectual superiority by clicking <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">here</a></p>
+            </div>
+
+            <%-- attempt #1487 at calendar stuff --%>
+
+            <div class="form-group col-6 justify-content-center">
+                <h2 class="text-uppercase text-bold display-1">Get a wordle answer from any day ever</h2>
+                <label class="control-label col-sm-2" for="date">Enter date with format: yyyy-mm-dd</label>
+                <div class="col-sm-4">
+                    <div class="input-group date" data-provide="datepicker">
+                        <input type="text" class="form-control" id="date" name="date">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-th"></span>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <script>
+                $(document).ready(function () {
+                    $('#date').datepicker({
+                        dateFormat: "yyyy-mm-dd"
+                    });
+                });
+            </script>
+
         </div>
-
-        <script>
-            let input = document.getElementById('datePicker');
-            $('.datepicker').datepicker({
-                format: 'yyyy-mm-dd',
-            });
-        </script>
-<%--        <script>--%>
-<%--            $(function() {--%>
-<%--                $('.datepicker').datepicker({--%>
-<%--                    dateFormat: "yyyy-mm-dd",--%>
-<%--                    onSelect: function(){--%>
-<%--                        var selected = $(this).val();--%>
-<%--                        alert(selected);--%>
-<%--                    }--%>
-<%--                });--%>
-<%--            });--%>
-<%--        </script>--%>
-    </div>
-
 </div>
 </body>
 </html>
