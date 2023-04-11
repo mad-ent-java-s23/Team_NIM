@@ -6,8 +6,15 @@ import com.teamNIM.entity.WordleAnswers;
 import com.teamNIM.util.PropertiesLoader;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 import org.apache.logging.log4j.*;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 
@@ -17,6 +24,7 @@ import javax.ws.rs.core.MediaType;
 public class wordleDAO implements PropertiesLoader {
     Properties properties;
     private final Logger logger = LogManager.getLogger(this.getClass());
+    SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
     public static String API_URL;
 
     /**
@@ -56,6 +64,18 @@ public class wordleDAO implements PropertiesLoader {
     private String url_key () {
         loadProperties();
         return properties.getProperty("wordle.nytimes");
+    }
+
+    public List<WordleAnswers> getAll() {
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<WordleAnswers> query = builder.createQuery(WordleAnswers.class );
+        Root<WordleAnswers> root = query.from(WordleAnswers.class);
+        List<WordleAnswers> answers = session.createQuery( query ).getResultList();
+        logger.debug("List of answers " + answers);
+        session.close();
+        return answers;
+
     }
 
 }

@@ -1,11 +1,13 @@
 package com.teamNIM.entity;
 
+import com.teamNIM.persistence.GenericDao;
 import com.teamNIM.persistence.wordleDAO;
+import com.teamNIM.test.util.Database;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -13,8 +15,10 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author keithlienert
  */
 class WordleAnswersTest {
+    private final Logger logger = LogManager.getLogger(this.getClass());
     wordleDAO dao;
     LocalDate date;
+    GenericDao genericDao;
 
     @BeforeEach
     void setUp() {
@@ -27,6 +31,7 @@ class WordleAnswersTest {
 //        assertEquals("???", dao.getAnswer(String.valueOf(date)).getSolution());
         System.out.println("Wordle Answer for (" + date + ") is: " + dao.getAnswer(String.valueOf(date)).getSolution());
     }
+
 
     @Test
     public void getOlderSolutionTestSuccess() {
