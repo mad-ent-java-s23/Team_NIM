@@ -29,3 +29,11 @@ img {
 .button {
     text-decoration: none;
 }
+
+.daily {
+    padding-left: 3em;
+}
+
+.select-date {
+    padding-right: 3em;
+}
