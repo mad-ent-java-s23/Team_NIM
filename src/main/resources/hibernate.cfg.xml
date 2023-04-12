@@ -5,9 +5,10 @@
 <hibernate-configuration>
     <session-factory>
         <!--    WORDLE DB - TEST    -->
-        <property name="connection.url">jdbc:mysql://localhost:3306/wordle_test</property>
+<!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle_test</property>-->
         <!--        WORDLE DB-->
-<!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle</property>-->
+        <property name="connection.url">jdbc:mysql://localhost:3306/wordle</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -16,6 +17,7 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <mapping class="com.teamNIM.entity.WordleAnswers" />
+        <mapping class="com.teamNIM.entity.Wordle" />
 
     </session-factory>
 
