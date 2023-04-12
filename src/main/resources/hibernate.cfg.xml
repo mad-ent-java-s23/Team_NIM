@@ -4,6 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <!--    WORDLE DB - TEST    -->
 <!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle_test</property>-->
         <!--        WORDLE DB-->
