@@ -45,25 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/auth" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/controller" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -361,8 +350,12 @@
       <workItem from="1680025010324" duration="2894000" />
       <workItem from="1680795362182" duration="2147000" />
       <workItem from="1680825602838" duration="2152000" />
+      <workItem from="1681148902136" duration="6375000" />
+      <workItem from="1681234487623" duration="4759000" />
+      <workItem from="1681291872457" duration="458000" />
       <workItem from="1680876555413" duration="10152000" />
       <workItem from="1681253640359" duration="5510000" />
+
     </task>
     <servers />
   </component>
