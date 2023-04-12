@@ -61,6 +61,14 @@ class GenericDaoTest {
         assertEquals(wordToUpdate, retrievedWord);
     }
 
+    @Test
+    public void getByDate() {
+        String date = "2023-04-07";
+        List<Wordle> results = dao.findByPropertyEqual("printDate", date);
+        assertEquals(1, results.size());
+        String word = results.get(0).getSolution();
+        assertEquals("locus", word);
 
+    }
 
 }
