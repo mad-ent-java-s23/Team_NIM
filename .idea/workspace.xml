@@ -10,17 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/Wordle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/teamNIM.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teamNIM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/wordleDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/wordleDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/cleandb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -92,7 +84,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GenericDaoTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
     <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
       <module name="Team_NIM" />
