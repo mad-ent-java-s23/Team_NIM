@@ -47,6 +47,23 @@
             });
         </script>
     </div>
+<%--    Just getting something up here to look up via ID --%>
+    <div class="row">
+        <div class="col-sm-6 mx-auto">
+            <form action="../Team_NIM_war/getWords/WordleService/getById" class="form-inline">
+                <div class="form-group m-2">
+                    <label for="word_id" class="m-1">Search by Wordle ID</label>
+                    <input type="number" class="form-control m-1 p-1" id="word_id" name="word_id" aria-describedby="SearchID-help">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+        <div class="col-sm-6 mx-auto">
+            <p>Get all users (JSON):<br />
+                <a href="../Team_NIM_war/getWords/WordleService/all" target="_blank">All the Words!</a>
+            </p>
+        </div>
+    </div>
 
 </div>
 </body>
