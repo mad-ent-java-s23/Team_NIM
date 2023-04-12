@@ -138,9 +138,9 @@ public class Wordle {
 	@Override
 	public String toString() {
 		return "Wordle{" +
-				"editor='" + editor + '\'' +
+				"id=" + id +
+				", editor='" + editor + '\'' +
 				", solution='" + solution + '\'' +
-				", id=" + id +
 				", printDate='" + printDate + '\'' +
 				'}';
 	}
