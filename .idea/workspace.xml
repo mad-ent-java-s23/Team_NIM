@@ -45,7 +45,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
@@ -355,7 +354,6 @@
       <workItem from="1681291872457" duration="458000" />
       <workItem from="1680876555413" duration="10152000" />
       <workItem from="1681253640359" duration="5510000" />
-
     </task>
     <servers />
   </component>

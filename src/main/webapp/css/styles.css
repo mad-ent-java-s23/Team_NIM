@@ -67,3 +67,7 @@ a:hover {
     color: black;
     text-decoration: none;
 }
+
+.container-fluid {
+    margin: 0em 1em;
+}
