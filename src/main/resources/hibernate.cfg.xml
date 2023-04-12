@@ -9,8 +9,8 @@
 <!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle_test</property>-->
         <!--        WORDLE DB-->
         <property name="connection.url">jdbc:mysql://localhost:3306/wordle</property>
-<!--        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<!--        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>-->
         <property name="connection.username">root</property>
         <property name="connection.password">student</property>
 
