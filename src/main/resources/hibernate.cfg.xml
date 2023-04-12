@@ -4,7 +4,25 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
+        <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 
+        <!--    WORDLE DB - TEST    -->
+<!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle_test</property>-->
+<!--        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
+<!--        <property name="connection.username">root</property>-->
+<!--        <property name="connection.password"></property>-->
+
+        <!--    WORDLE DB-->
+<!--        <property name="connection.url">jdbc:mysql://localhost:3306/wordle</property>-->
+<!--        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>-->
+<!--        <property name="connection.username">root</property>-->
+<!--        <property name="connection.password"></property>-->
+
+        <!--    AWS WORDLE        -->
+        <property name="connection.url">jdbc:mysql://awseb-e-tkecpksm5g-stack-awsebrdsdatabase-unliivcuxrxz.cildyrmuw4hz.eu-north-1.rds.amazonaws.com:3306/wordle</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">student9</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -13,6 +31,7 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
         <mapping class="com.teamNIM.entity.WordleAnswers" />
+        <mapping class="com.teamNIM.entity.Wordle" />
 
     </session-factory>
 
