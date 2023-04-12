@@ -42,15 +42,13 @@
                 </div>
             </div>
         </div>
-
-            <script>
-                $(document).ready(function () {
-                    $('#date').datepicker({
-                        format: "yyyy-mm-dd"
-                    });
-                });
-            </script>
-
 </div>
+<script>
+    $(document).ready(function () {
+        $('#date').datepicker({
+            format: "yyyy-mm-dd"
+        });
+    });
+</script>
 </body>
 </html>
