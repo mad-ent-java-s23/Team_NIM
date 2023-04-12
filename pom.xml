@@ -139,6 +139,13 @@
       <artifactId>hibernate-core</artifactId>
       <version>5.4.4.Final</version>
     </dependency>
+    <!-- c3p0 - used to handle connection pooling with hibernate -->
+    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0 -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-c3p0</artifactId>
+      <version>5.4.4.Final</version>
+    </dependency>
   </dependencies>
 
 
