@@ -5,6 +5,7 @@ header {
 img {
     height: 250px;
     width: auto;
+    border-radius: 2em;
 }
 
 .login {
@@ -30,16 +31,32 @@ img {
     text-decoration: none;
 }
 
-.daily, .by-id {
+.daily {
     padding-left: 3em;
 }
 
-.select-date, .all-time {
+.select-date {
     padding-right: 3em;
 }
 
+.control-label {
+    float: none;
+    display: inline;
+    font-weight: 100;
+}
+
+.col-sm-4 {
+    float: none;
+    display: inline;
+}
+
 body {
-    background-image: url("/images/green-pattern.jpg");
+    background-image: url("../images/wordle-background2.jpg");
+}
+
+main {
+    background-color: white;
+    border-radius: 2em;
 }
 
 a {
