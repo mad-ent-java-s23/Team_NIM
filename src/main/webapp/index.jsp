@@ -28,14 +28,14 @@
 
             <%-- attempt #1487 at calendar stuff --%>
             <div class="col-sm-6 select-date text-center">
-                <div class="form-group">
-                    <h2 class="text-uppercase text-bold display-1">Get a wordle answer from any day ever</h2>
-                    <label class="control-label col-sm-2" for="date">Enter date with format: yyyy-mm-dd</label>
+                <div class="form-group text-center">
+                    <h2 class="text-uppercase text-center text-bold display-1">Get a wordle answer from any day ever</h2>
+                    <label class="control-label col-sm-2 text-center" for="date">Enter date with format: yyyy-mm-dd</label>
                     <div class="row text-center">
                         <div class="col-sm-4 text-center">
                             <div class="input-group date text-center" data-provide="datepicker">
-                                <input type="text" class="form-control" id="date" name="date">
-                                <div class="input-group-addon">
+                                <input type="text" class="form-control text-center" id="date" name="date">
+                                <div class="input-group-addon text-center">
                                     <span class="glyphicon glyphicon-th"></span>
                                 </div>
                             </div>
