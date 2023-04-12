@@ -1,6 +1,17 @@
-[INFO ] 2023-03-25 21:07:53.087 [main] wordleDAO -    **** {"id":1738,"solution":"voter","print_date":"2023-03-25","days_since_launch":644,"editor":"Tracy Bennett"}
-[INFO ] 2023-03-25 21:07:53.277 [main] wordleDAO -    **** {"id":2116,"solution":"moose","print_date":"2023-03-01","days_since_launch":620,"editor":"Tracy Bennett"}
-[INFO ] 2023-03-25 21:07:53.348 [main] wordleDAO -    **** {"id":1852,"solution":"above","print_date":"2023-03-02","days_since_launch":621,"editor":"Tracy Bennett"}
-[INFO ] 2023-03-25 21:07:53.412 [main] wordleDAO -    **** {"id":1240,"solution":"squat","print_date":"2023-03-03","days_since_launch":622,"editor":"Tracy Bennett"}
-[INFO ] 2023-03-25 21:07:53.476 [main] wordleDAO -    **** {"id":1834,"solution":"trend","print_date":"2023-03-04","days_since_launch":623,"editor":"Tracy Bennett"}
-[INFO ] 2023-03-25 21:07:53.539 [main] wordleDAO -    **** {"id":1795,"solution":"toxic","print_date":"2023-03-05","days_since_launch":624,"editor":"Tracy Bennett"}
+[ERROR] 2023-04-10 18:05:23.518 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-04-10 18:05:24.227 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-04-10 18:10:15.027 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-04-10 18:14:19.986 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-04-10 18:14:56.626 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2023-04-11 10:19:11.807 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2023-04-11 10:22:04.828 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2023-04-11 10:27:53.143 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2023-04-11 10:27:53.250 [main] wordleDAO - List of answers []
+[ERROR] 2023-04-11 10:34:11.521 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2023-04-11 10:34:11.624 [main] wordleDAO - List of answers []
+[ERROR] 2023-04-11 13:51:44.746 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2023-04-11 13:51:44.863 [main] wordleDAO - List of answers []
+[ERROR] 2023-04-11 13:59:24.198 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2023-04-11 14:02:00.748 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[DEBUG] 2023-04-11 20:27:28.135 [main] GenericDaoTest -     **** wordles [Wordle{editor='Tracy Bennett', solution='smash', id=1, printDate='2023-04-05'}, Wordle{editor='Tracy Bennett', solution='leafy', id=2, printDate='2023-04-06'}, Wordle{editor='Tracy Bennett', solution='locus', id=3, printDate='2023-04-07'}]
+[DEBUG] 2023-04-11 20:46:29.807 [main] GenericDaoTest -     **** wordles [Wordle{editor='Tracy Bennett', solution='smash', id=1, printDate='2023-04-05'}, Wordle{editor='Tracy Bennett', solution='leafy', id=2, printDate='2023-04-06'}, Wordle{editor='Tracy Bennett', solution='locus', id=3, printDate='2023-04-07'}]

@@ -45,18 +45,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/student/IdeaProjects/Team_NIM/src/main/webapp/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
@@ -75,11 +64,57 @@
       <recent name="com.teamNIM.entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.teamNIM.entity" />
+      <recent name="com.teamNIM.test.util" />
       <recent name="com.teamNIM.util" />
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
+    <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDaoTest.getById_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
+      <option name="METHOD_NAME" value="getById_Success" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -107,22 +142,6 @@
       <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
       <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
       <option name="METHOD_NAME" value="getCurrentSolutionTestSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordleAnswersTest.getOlderSolutionTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Team_NIM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="getOlderSolutionTestSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,15 +316,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WordleAnswersTest" />
+      <item itemvalue="Application.Solutions" />
+      <item itemvalue="JUnit.GenericDaoTest" />
+      <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
-      <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+      <item itemvalue="JUnit.WordleAnswersTest" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.41" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericDaoTest" />
+        <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
-        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+        <item itemvalue="Application.Solutions" />
         <item itemvalue="JUnit.WordleAnswersTest" />
       </list>
     </recent_temporary>
@@ -314,10 +337,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="" />
-      <created>1679766932861</created>
+      <created>1681241996444</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679766932861</updated>
+      <updated>1681241996444</updated>
       <workItem from="1679766934113" duration="3300000" />
       <workItem from="1679781143739" duration="6662000" />
       <workItem from="1679839325380" duration="291000" />
@@ -330,6 +353,9 @@
       <workItem from="1681148902136" duration="6375000" />
       <workItem from="1681234487623" duration="4759000" />
       <workItem from="1681291872457" duration="458000" />
+      <workItem from="1680876555413" duration="10152000" />
+      <workItem from="1681253640359" duration="5510000" />
+
     </task>
     <servers />
   </component>
