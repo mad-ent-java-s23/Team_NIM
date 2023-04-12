@@ -55,4 +55,6 @@ public class WordleService {
         Wordle words = (Wordle)genericDao.getById(id);
         return Response.status(200).entity(words.toString()).build();
     }
+
+//    TODO /WordleService/query?date={date}
 }
