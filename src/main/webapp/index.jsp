@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-sm-6 daily text-center">
                     <h2 class="text-uppercase text-bold display-1">Get today's wordle answer</h2>
-                    <p>Establish intellectual superiority by clicking <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">here</a></p>
+                    <p>Establish intellectual superiority by clicking <a href="../getWords/WordleService/today" target="_blank">here</a></p>
                 </div>
 
                 <%-- attempt #1487 at calendar stuff --%>
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-sm-12 mx-auto all-time text-center">
                     <h2 class="text-uppercase text-bold display-1">Get every wordle answer ever</h2>
-                        <a href="../Team_NIM_war/getWords/WordleService/all" target="_blank">All the Words!</a>
+                        <a href="../getWords/WordleService/all" target="_blank">All the Words!</a>
                     </p>
                 </div>
             </div>

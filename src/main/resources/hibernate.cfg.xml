@@ -19,7 +19,8 @@
 <!--        <property name="connection.password"></property>-->
 
         <!--    AWS WORDLE        -->
-        <property name="connection.url">jdbc:mysql://awseb-e-tkecpksm5g-stack-awsebrdsdatabase-unliivcuxrxz.cildyrmuw4hz.eu-north-1.rds.amazonaws.com:3306/wordle</property>
+<!--        <property name="connection.url">jdbc:mysql://awseb-e-tkecpksm5g-stack-awsebrdsdatabase-unliivcuxrxz.cildyrmuw4hz.eu-north-1.rds.amazonaws.com:3306/wordle</property>-->
+        <property name="connection.url">jdbc:mysql://wordle-aws.cildyrmuw4hz.eu-north-1.rds.amazonaws.com:3306/wordle</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">student9</property>

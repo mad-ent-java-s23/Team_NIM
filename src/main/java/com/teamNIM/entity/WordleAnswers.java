@@ -1,20 +1,20 @@
 package com.teamNIM.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.hibernate.annotations.GenericGenerator;
+// import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.util.Objects;
 
 
 @Entity(name = "WordleAnswers")
 @Table(name = "words")
-public class WordleAnswers{
+public class WordleAnswers {
 
-	@Column(name="editor")
+//	@Column(name="editor")
 	@JsonProperty("editor")
 	private String editor;
 
-	@Column(name="solution")
+//	@Column(name="solution")
 	@JsonProperty("solution")
 	private String solution;
 
@@ -23,12 +23,12 @@ public class WordleAnswers{
 	private int daysSinceLaunch;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-	@GenericGenerator(name = "native", strategy = "native")
+//	@GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+//	@GenericGenerator(name = "native", strategy = "native")
 	@JsonProperty("id")
 	private int id;
 
-	@Column(name="printDate")
+//	@Column(name="printDate")
 	@JsonProperty("print_date")
 	private String printDate;
 
