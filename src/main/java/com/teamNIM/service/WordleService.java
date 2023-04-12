@@ -37,9 +37,19 @@ public class WordleService {
         return Response.status(200).entity(word.toString()).build();
     }
 
+//    GET "/all"
+    @GET
+    @Path("/all")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getAllWords() {
+        List<Wordle> wordList = genericDao.getAll();
+        return Response.status(200).entity(wordList.toString()).build();
+    }
+
+
 //    GET /WorldService/query?word_id={id}
     @GET
-    @Path("/query")
+    @Path("/getById")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getWordByID(@QueryParam("word_id") int id) {
         Wordle words = (Wordle)genericDao.getById(id);
