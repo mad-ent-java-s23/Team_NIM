@@ -32,7 +32,6 @@ public class wordleDaoTest {
 
     @Test
     void getFirstEntity_Success() {
-//        System.out.println(dao.getAnswer("2023-04-05")); // from API
         WordleAnswers words = dao.getAnswer("2023-04-05");
         assertEquals("smash", words.getSolution());
     }
