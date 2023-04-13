@@ -4,6 +4,8 @@ import com.teamNIM.entity.Wordle;
 import com.teamNIM.entity.WordleAnswers;
 import com.teamNIM.persistence.GenericDao;
 import com.teamNIM.persistence.wordleDAO;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -17,6 +19,7 @@ import java.util.List;
 
 @Path("/WordleService")
 public class WordleService {
+    private final Logger logger = LogManager.getLogger(this.getClass());
     GenericDao genericDao = new GenericDao(Wordle.class);
     wordleDAO dao = new wordleDAO();
     LocalDate date;
@@ -56,5 +59,17 @@ public class WordleService {
         return Response.status(200).entity(words.toString()).build();
     }
 
-//    TODO /WordleService/query?date={date}
+//  GET /WordleService/query?date={date}
+    @GET
+    @Path("/query")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getWordByDate(@QueryParam("date") String date) {
+        List<Wordle> result = genericDao.findByPropertyEqual("printDate", date);
+        logger.debug("   **** List size: " + result.size());
+        if (result.size() < 1) {
+            return Response.status(200).entity("Oops! There might not be a word for the date you selected").build();
+        }
+        return Response.status(200).entity(result.get(0).toString()).build();
+    }
+
 }

@@ -75,7 +75,8 @@ public class wordleDAO implements PropertiesLoader {
         logger.debug("List of answers " + answers);
         session.close();
         return answers;
-
     }
+
+
 
 }
