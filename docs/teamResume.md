@@ -24,9 +24,10 @@
 #### Additional functionalities to be added at a later date
 1. Get the Word of the day (NYTimes) and add it to the TeamNIM API automatically
 2. Multiple Day search
-3. Add the ability to POST a new word to the database, with functionality to check for duplicates
+3. Add the ability to POST a new word to the database, with functionality to check for duplicates and validity:
    - Not only duplicates, but would need to establish a check for whether the POSTed word is an actual word
    - May require using an additional API such as [Merriam-Webster Dictionary](https://dictionaryapi.com/)
+   - *This may also pose potential problems since some words may be considered offensive (see the [Wordle Wiki](https://en.wikipedia.org/wiki/Wordle) and the NYTimes acquisition section)
 
 
 #### Game interface (to be added later)
@@ -40,6 +41,7 @@ List APIs and links that are used:
 - [Rapid API - Wordle](https://rapidapi.com/Alejandro99aru/api/wordle-answers-solutions)
 - [NYTimes API](https://www.nytimes.com/svc/wordle/v2/)
 - [Wordle Vulnerabilities](https://siliconangle.com/2022/12/19/api-vulnerabilities-wordle-exposed-answers-opened-door-potential-hacking/)
+- [More on Wordle](https://en.wikipedia.org/wiki/Wordle)
 
 ### Members
 #### Myo:
