@@ -1,30 +1,65 @@
+<html>
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="TeamNIM - Wordle Clone" />
 <%@include file="head.jsp"%>
-
-<html>
 <body>
-<div class="container m-2">
-    <h2>Hello Wordle!</h2>
-    <div class="row justify-content-center">
-        <div class="col-4">
-            <p>Wordle -- <a href="../Team_NIM_war/getWords/WordleService/today" target="_blank">Word</a> of the Day</p>
+    <header>
+        <img src="images/wordle.png" alt="wordle">
+        <div class="login">
+            <c:choose>
+                <c:when test="${empty userName}">
+                    <a href = "logIn" class="button">Login</a>
+                </c:when>
+                <c:otherwise>
+                    <h3>Welcome ${userName}</h3>
+                </c:otherwise>
+            </c:choose>
         </div>
-    </div>
-    <div class="row">
-    <%--  TODO: Add a form or calendar to input the day for the Wordle Answer --%>
-    </div>
+    </header>
+
     <hr>
-    <div class="row justify-content-center">
-        <c:choose>
-            <c:when test="${empty userName}">
-                <a href = "logIn">Log in</a>
-            </c:when>
-            <c:otherwise>
-                <h3>Welcome ${userName}</h3>
-            </c:otherwise>
-        </c:choose>
-    </div>
-</div>
+
+    <main class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 daily text-center">
+                    <h2 class="text-uppercase text-bold display-1">Get today's wordle answer</h2>
+                    <%--  for testing--%>
+                    <p>Establish intellectual superiority by clicking <a href="../getWords/WordleService/today" target="_blank">here</a></p>
+                </div>
+                <div class="col-sm-6 mx-auto all-time text-center">
+                    <h2 class="text-uppercase text-bold display-1">Get every wordle answer ever</h2>
+                    <a class="btn bg-primary" href="../getWords/WordleService/all" target="_blank">All the Words!</a>
+                </div>
+            </div>
+            <hr>
+            <%--    Just getting something up here to look up via ID --%>
+            <div class="row">
+                <div class="col-sm-6 select-date mx-auto text-center">
+                    <%@include file="datepicker.jsp"%>
+                </div>
+                <div class="col-sm-6 mx-auto text-center">
+                    <h2 class="text-uppercase text-bold display-1">Play with no guess limit!</h2>
+                    <p>Check out wordle with no guess limit.</p>
+                    <a class="btn bg-primary" href="wordle.jsp">Go Play</a>
+                </div>
+            </div>
+    </main>
+
+    <script>
+        document.querySelector("#datePicker").value = "";
+        let btn = document.querySelector("#submit");
+        btn.addEventListener("click", () => {
+            let date = document.querySelector("#datePicker").value;
+            console.log("Date entered: " + date);
+        })
+
+        // $(document).ready(function () {
+        //     $('#date').datepicker({
+        //         format: "yyyy-mm-dd"
+        //     });
+        //
+        // });
+    </script>
+
 </body>
 </html>

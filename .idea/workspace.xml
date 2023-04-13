@@ -10,7 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InsertValues.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/ProcessWordServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/Wordle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/util/Solutions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/InsertValues.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/WordleAnswers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/green-pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/datepicker.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/green-pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle-background2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/wordle.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/wordleDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/test/util/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/teamResume.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/teamResume.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teamNIM.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teamNIM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +67,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/head.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -45,27 +94,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/EntJava/projects/week8&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/auth" />
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/controller" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -77,31 +122,69 @@
       <recent name="com.teamNIM.entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.teamNIM.entity" />
+      <recent name="com.teamNIM.test.util" />
       <recent name="com.teamNIM.util" />
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.85">
-    <configuration name="All in Team_NIM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
+    <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
       <module name="Team_NIM" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GenericDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDaoTest.getByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
+      <option name="METHOD_NAME" value="getByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDaoTest.getById_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
+      <option name="METHOD_NAME" value="getById_Success" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,23 +205,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordleAnswersTest.getOlderSolutionTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Team_NIM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="getOlderSolutionTestSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team_NIM:war">
@@ -307,18 +374,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in Team_NIM" />
-      <item itemvalue="JUnit.WordleAnswersTest" />
+      <item itemvalue="Application.Solutions" />
+      <item itemvalue="JUnit.GenericDaoTest.getByDate" />
+      <item itemvalue="JUnit.GenericDaoTest" />
+      <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
-      <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.85" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Team_NIM" />
-        <item itemvalue="JUnit.WordleAnswersTest" />
-        <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
+        <item itemvalue="JUnit.GenericDaoTest.getByDate" />
+        <item itemvalue="JUnit.GenericDaoTest" />
+        <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
+        <item itemvalue="Application.Solutions" />
       </list>
     </recent_temporary>
   </component>
@@ -326,10 +395,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="" />
-      <created>1679766932861</created>
+      <created>1681241996444</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679766932861</updated>
+      <updated>1681241996444</updated>
       <workItem from="1679766934113" duration="3300000" />
       <workItem from="1679781143739" duration="6662000" />
       <workItem from="1679839325380" duration="291000" />
@@ -337,18 +406,14 @@
       <workItem from="1679929228185" duration="1660000" />
       <workItem from="1679991769082" duration="8583000" />
       <workItem from="1680025010324" duration="2894000" />
-      <workItem from="1680528555227" duration="265000" />
-      <workItem from="1680529020862" duration="2617000" />
-      <workItem from="1680546711910" duration="30000" />
-      <workItem from="1681137130607" duration="1237000" />
-      <workItem from="1681190022313" duration="12000" />
-      <workItem from="1681222907742" duration="2132000" />
-      <workItem from="1681225403283" duration="430000" />
-      <workItem from="1681226260976" duration="40000" />
-      <workItem from="1681241822772" duration="225000" />
-      <workItem from="1681277946376" duration="14000" />
-      <workItem from="1681302576639" duration="11712000" />
-      <workItem from="1681373707403" duration="1520000" />
+      <workItem from="1680795362182" duration="2147000" />
+      <workItem from="1680825602838" duration="2152000" />
+      <workItem from="1681148902136" duration="6375000" />
+      <workItem from="1681234487623" duration="4759000" />
+      <workItem from="1681291872457" duration="458000" />
+      <workItem from="1680876555413" duration="10152000" />
+      <workItem from="1681253640359" duration="5510000" />
+      <workItem from="1681394762476" duration="6023000" />
     </task>
     <servers />
   </component>
