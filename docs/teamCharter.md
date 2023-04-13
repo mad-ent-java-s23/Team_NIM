@@ -16,9 +16,9 @@
 
 ### Roles & Responsibilities:
 
-- Matt - Front-end, Back-end, 
-- Myo
-- Keith
+- Matt - Front-end, Back-end 
+- Myo - 
+- Keith - Back-end, Database
 
 ### Communication & Collaboration:
 
