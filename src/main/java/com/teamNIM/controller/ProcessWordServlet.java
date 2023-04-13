@@ -34,11 +34,11 @@ public class ProcessWordServlet extends HttpServlet {
         for (int index = 0; index < word.length(); index++) {
             char charactor = word.charAt(index);
             if (rightWord.charAt(index) == charactor) {
-                listOfColors.add("bg-success");
+                listOfColors.add("bg-success text-white");
             } else if (rightWord.contains((Character.toString(charactor)))) {
-                listOfColors.add("bg-warning");
+                listOfColors.add("bg-warning text-white");
             } else {
-                listOfColors.add("bg-white");
+                listOfColors.add(".bg-secondary text-white");
             }
         }
         List<Character> listOfCharactor = word.chars()
