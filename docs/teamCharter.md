@@ -2,24 +2,36 @@
 
 ### Purpose and Vision:
 
-- Develop a working clone of the NY Times games Wordle
+- Develop an API for accessing previously used words for the game Wordle
 
 ### Objective and Goals:
 
+1. Using the NYTimes [API](https://www.nytimes.com/svc/wordle/v2/), develop an end point where users can access the 'word of the day'
+2. Users will be able to:
+  - Get the Word of the day
+  - Get a word from a date search (limited to the start of the NYTimes acquisition of Wordle - June, 19, 2021)
+  - Get all the words up-to-current-date
+3. Responses for the GET should look as follows:
+   <pre>
+   Wordle {
+      editor='*who wrote it*', 
+      solution='*the word*',      
+      id=*some int, 
+      printDate='2023-03-01'
+   }
+   </pre>
+
+### Future Goals: 
 1. Develop user-friendly interface that allows players to input guesses
 2. Create an algorithm to randomly select a five-letter word and tracks player progression as they attempt to guess the correct word
 3. Implement a scoring system – correct guesses, incorrect guesses (tries), etc.
-4. (optional) Create a DB of words and incorporate features that allow players to choose different categories or levels of difficulty
-  - OR
-5. Utilize the NYTimes API (or other) to retrieve randomized words already used (randomize the dates to retrieve them)
-6. Ensure game is accessible to a wide range of users (including those with disabilities or with assistive technologies
+4. Ensure game is accessible to a wide range of users (including those with disabilities or with assistive technologies
 
 ### Roles & Responsibilities:
 
-* TBD - Roles
-- Matt
-- Myo
-- Keith
+- Matt - Front-end, Back-end 
+- Myo - 
+- Keith - Back-end, Database
 
 ### Communication & Collaboration:
 
@@ -36,10 +48,13 @@
 - Week 10 (ending 4/2)
   - [X] POJO and DAO created
   - [X] Initial tests with the NYTimes API and/or rapidAPI
-  - [X] Initialized a basic 'web service' for the current Wordle of the Day on the index page
-   
+  - [X] Initialized a basic 'web service' for the current Wordle of the Day on the index page   
 - Week 11 (ending 4/9)
-- Week 12
-    - [ ] Project due on 4/12, 7pm CST 
+  - [X] Front-End developed using Bootstrap
+  - [X] Database developed using MySQL and uploaded to AWS
+  - [X] Developed a 'Solutions' class to retrieve all of the words from the NYTimes Wordle API
+  - [X] Developed service/application classes to direct users to the appropriate pages to access the JSON 
+- Week 12  
+  - [ ] Project due on 4/12, 7pm CST 
 
  

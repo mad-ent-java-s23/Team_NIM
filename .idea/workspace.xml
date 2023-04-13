@@ -10,53 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/69e21d5f-c971-441c-80aa-8a325967a2a2/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InsertValues.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/controller/ProcessWordServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/Wordle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/util/Solutions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/InsertValues.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WordleAnswers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/green-pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/datepicker.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/green-pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle-background2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/wordle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wordle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/wordleDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/test/util/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/teamResume.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/teamResume.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/teamNIM.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teamNIM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/entity/WordleAnswers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/GenericDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/placeholder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/entity/WordleAnswersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,16 +49,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">{
+    &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    }
+    }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
@@ -413,7 +363,6 @@
       <workItem from="1681291872457" duration="458000" />
       <workItem from="1680876555413" duration="10152000" />
       <workItem from="1681253640359" duration="5510000" />
-      <workItem from="1681394762476" duration="6023000" />
     </task>
     <servers />
   </component>
