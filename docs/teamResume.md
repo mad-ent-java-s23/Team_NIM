@@ -13,7 +13,7 @@
    - Get all of the words up-to-date
 3. Responses for the GET should look as follows:
    <pre>
-   WordleAnswers {
+   Wordle {
       editor='*who wrote it*', 
       solution='*the word*',      
       id=*some int, 
