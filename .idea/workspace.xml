@@ -10,8 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/datepicker.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/590d8b7a-e164-46ec-9d6c-c49853c9bcc4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/teamNIM.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/teamNIM.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/persistence/wordleDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/teamNIM/service/WordleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/teamNIM/persistence/GenericDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -48,11 +57,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
@@ -77,7 +86,7 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.41">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
     <configuration name="Solutions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.teamNIM.util.Solutions" />
       <module name="Team_NIM" />
@@ -106,6 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericDaoTest.getByDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.teamNIM.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.teamNIM.persistence" />
+      <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
+      <option name="METHOD_NAME" value="getByDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericDaoTest.getById_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -118,22 +143,6 @@
       <option name="MAIN_CLASS_NAME" value="com.teamNIM.persistence.GenericDaoTest" />
       <option name="METHOD_NAME" value="getById_Success" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Team_NIM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.teamNIM.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.teamNIM.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.teamNIM.entity.WordleAnswersTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,7 +163,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team_NIM:war">
@@ -324,19 +333,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solutions" />
+      <item itemvalue="JUnit.GenericDaoTest.getByDate" />
       <item itemvalue="JUnit.GenericDaoTest" />
       <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
-      <item itemvalue="JUnit.WordleAnswersTest" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.41" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GenericDaoTest.getByDate" />
         <item itemvalue="JUnit.GenericDaoTest" />
         <item itemvalue="JUnit.GenericDaoTest.getById_Success" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
         <item itemvalue="Application.Solutions" />
-        <item itemvalue="JUnit.WordleAnswersTest" />
       </list>
     </recent_temporary>
   </component>

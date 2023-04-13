@@ -15,3 +15,6 @@
 [ERROR] 2023-04-11 14:02:00.748 [main] Database - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
 [DEBUG] 2023-04-11 20:27:28.135 [main] GenericDaoTest -     **** wordles [Wordle{editor='Tracy Bennett', solution='smash', id=1, printDate='2023-04-05'}, Wordle{editor='Tracy Bennett', solution='leafy', id=2, printDate='2023-04-06'}, Wordle{editor='Tracy Bennett', solution='locus', id=3, printDate='2023-04-07'}]
 [DEBUG] 2023-04-11 20:46:29.807 [main] GenericDaoTest -     **** wordles [Wordle{editor='Tracy Bennett', solution='smash', id=1, printDate='2023-04-05'}, Wordle{editor='Tracy Bennett', solution='leafy', id=2, printDate='2023-04-06'}, Wordle{editor='Tracy Bennett', solution='locus', id=3, printDate='2023-04-07'}]
+[DEBUG] 2023-04-12 23:38:44.420 [main] GenericDaoTest -    **** TEST: Wordle{id=3, editor='Tracy Bennett', solution='locus', printDate='2023-04-07'}
+[DEBUG] 2023-04-12 23:48:05.372 [http-nio-8088-exec-59] WordleService -    **** List size: 1
+[DEBUG] 2023-04-12 23:48:30.872 [http-nio-8088-exec-46] WordleService -    **** List size: 0
