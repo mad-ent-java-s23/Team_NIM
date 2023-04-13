@@ -16,8 +16,7 @@
 
 ### Roles & Responsibilities:
 
-* TBD - Roles
-- Matt
+- Matt - Front-end, Back-end, 
 - Myo
 - Keith
 
@@ -36,10 +35,13 @@
 - Week 10 (ending 4/2)
   - [X] POJO and DAO created
   - [X] Initial tests with the NYTimes API and/or rapidAPI
-  - [X] Initialized a basic 'web service' for the current Wordle of the Day on the index page
-   
+  - [X] Initialized a basic 'web service' for the current Wordle of the Day on the index page   
 - Week 11 (ending 4/9)
-- Week 12
-    - [ ] Project due on 4/12, 7pm CST 
+  - [X] Front-End developed using Bootstrap
+  - [X] Database developed using MySQL and uploaded to AWS
+  - [X] Developed a 'Solutions' class to retrieve all of the words from the NYTimes Wordle API
+  - [X] Developed service/application classes to direct users to the appropriate pages to access the JSON 
+- Week 12  
+  - [ ] Project due on 4/12, 7pm CST 
 
  
