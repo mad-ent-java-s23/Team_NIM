@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d7b50e5-68a2-4e1c-8901-eb85680f5249" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/teamCharter.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/teamCharter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -46,11 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/EntJava/projects/week8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/teamNIM/auth" />
@@ -73,7 +81,15 @@
       <recent name="com.teamNIM.persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.5">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.85">
+    <configuration name="All in Team_NIM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Team_NIM" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordleAnswersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Team_NIM" />
       <extension name="coverage">
@@ -122,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Team_NIM:war">
@@ -291,13 +307,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in Team_NIM" />
       <item itemvalue="JUnit.WordleAnswersTest" />
       <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
       <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.5" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.85" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Team_NIM" />
         <item itemvalue="JUnit.WordleAnswersTest" />
         <item itemvalue="JUnit.WordleAnswersTest.getOlderSolutionTestSuccess" />
         <item itemvalue="JUnit.WordleAnswersTest.getCurrentSolutionTestSuccess" />
@@ -319,6 +337,18 @@
       <workItem from="1679929228185" duration="1660000" />
       <workItem from="1679991769082" duration="8583000" />
       <workItem from="1680025010324" duration="2894000" />
+      <workItem from="1680528555227" duration="265000" />
+      <workItem from="1680529020862" duration="2617000" />
+      <workItem from="1680546711910" duration="30000" />
+      <workItem from="1681137130607" duration="1237000" />
+      <workItem from="1681190022313" duration="12000" />
+      <workItem from="1681222907742" duration="2132000" />
+      <workItem from="1681225403283" duration="430000" />
+      <workItem from="1681226260976" duration="40000" />
+      <workItem from="1681241822772" duration="225000" />
+      <workItem from="1681277946376" duration="14000" />
+      <workItem from="1681302576639" duration="11712000" />
+      <workItem from="1681373707403" duration="1520000" />
     </task>
     <servers />
   </component>
