@@ -1,7 +1,8 @@
 # TEAM NIM
 ### Enterprise Java - Spring 2023 Team Project
 
-## Project Name - Wordle Clone
+## Project Name - Wordle API
+[Wordle API](http://wordleclone-env.eba-fhhbjakx.eu-north-1.elasticbeanstalk.com/)
 
 ## Members
 1. Matt Bryan
