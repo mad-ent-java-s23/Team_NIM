@@ -6,28 +6,34 @@
 
 ### Objectives (EDITED)
 #### RESTful API
-1. Using the NYTimes [API](https://www.nytimes.com/svc/wordle/v2/), develop an end point we users can access the 'word of the day'
-2. Additionally, users will be able to search for words in the API by date.  
-3. From the Administrator's side, we will utilize the GET, POST, and DELETE methods. For the User, only the GET method will be used
-4. Responses for the GET should look as follows:
+1. Using the NYTimes [API](https://www.nytimes.com/svc/wordle/v2/), develop an end point where users can access the 'word of the day'
+2. Users will be able to:
+   - Get the Word of the day
+   - Get a word from a date search (limited to the start of the NYTimes acquisition of Wordle - June, 19, 2021)
+   - Get all of the words up-to-date
+3. Responses for the GET should look as follows:
    <pre>
    WordleAnswers {
       editor='*who wrote it*', 
-      solution='*the word*', 
-      daysSinceLaunch=*some int*, 
+      solution='*the word*',      
       id=*some int, 
       printDate='2023-03-01'
    }
    </pre>
 
-#### Game interface (this is if there is time)
+#### Additional functionalities to be added at a later date
+1. Get the Word of the day (NYTimes) and add it to the TeamNIM API automatically
+2. Multiple Day search
+3. Add the ability to POST a new word to the database, with functionality to check for duplicates
+   - Not only duplicates, but would need to establish a check for whether the POSTed word is an actual word
+   - May require using an additional API such as [Merriam-Webster Dictionary](https://dictionaryapi.com/)
+
+
+#### Game interface (to be added later)
 1. Develop user-friendly interface that allows players to input guesses
 2. Create an algorithm to randomly select a five-letter word and tracks player progression as they attempt to guess the correct word
 3. Implement a scoring system – correct guesses, incorrect guesses (tries), etc.
-4. (optional) Create a DB of words and incorporate features that allow players to choose different categories or levels of difficulty
-   - OR
-5. Utilize the NYTimes API (or other) to retrieve randomized words already used (randomize the dates to retrieve them)
-6. Ensure game is accessible to a wide range of users (including those with disabilities or with assistive technologies
+4. Ensure game is accessible to a wide range of users (including those with disabilities or with assistive technologies
 
 ## APIs and other links
 List APIs and links that are used:
