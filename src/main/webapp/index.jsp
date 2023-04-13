@@ -5,16 +5,16 @@
 <body>
     <header>
         <img src="images/wordle.png" alt="wordle">
-        <div class="login">
-            <c:choose>
-                <c:when test="${empty userName}">
-                    <a href = "logIn" class="button">Login</a>
-                </c:when>
-                <c:otherwise>
-                    <h3>Welcome ${userName}</h3>
-                </c:otherwise>
-            </c:choose>
-        </div>
+<%--        <div class="login">--%>
+<%--            <c:choose>--%>
+<%--                <c:when test="${empty userName}">--%>
+<%--                    <a href = "logIn" class="button">Login</a>--%>
+<%--                </c:when>--%>
+<%--                <c:otherwise>--%>
+<%--                    <h3>Welcome ${userName}</h3>--%>
+<%--                </c:otherwise>--%>
+<%--            </c:choose>--%>
+<%--        </div>--%>
     </header>
 
     <hr>
@@ -32,7 +32,6 @@
                 </div>
             </div>
             <hr>
-            <%--    Just getting something up here to look up via ID --%>
             <div class="row">
                 <div class="col-sm-6 select-date mx-auto text-center">
                     <%@include file="datepicker.jsp"%>
@@ -45,21 +44,14 @@
             </div>
     </main>
 
-    <script>
-        document.querySelector("#datePicker").value = "";
-        let btn = document.querySelector("#submit");
-        btn.addEventListener("click", () => {
-            let date = document.querySelector("#datePicker").value;
-            console.log("Date entered: " + date);
-        })
-
-        // $(document).ready(function () {
-        //     $('#date').datepicker({
-        //         format: "yyyy-mm-dd"
-        //     });
-        //
-        // });
-    </script>
+<%--    <script>--%>
+<%--        document.querySelector("#datePicker").value = "";--%>
+<%--        let btn = document.querySelector("#submit");--%>
+<%--        btn.addEventListener("click", () => {--%>
+<%--            let date = document.querySelector("#datePicker").value;--%>
+<%--            console.log("Date entered: " + date);--%>
+<%--        })        --%>
+<%--    </script>--%>
 
 </body>
 </html>
